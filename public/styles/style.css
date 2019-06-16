@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 60px 0;
+    position: relative;
+}
+header::after{
+    content: "";
+    width: 1200px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: -30px;
+
+}
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav .logo{
+    background: url('/images/icons/logo.jpg') center center / contain no-repeat;
+    width: 40px;
+    height: 40px;
+}
+header .nav-box a{
+    margin: 15px;
+    color: #000000;
+}
+.header-user-basket{
+    display: flex;
+    align-items: center;
+}
+.header-user-basket a{
+    margin: 0 15px;
+    color: #000000;
+}

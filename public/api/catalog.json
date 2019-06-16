@@ -1,0 +1,40 @@
+{
+    "name": "Мужчинам",
+    "descr": "Все товары",
+    "filters":[
+        {
+            "name": "Категория",
+            "filters": [
+                {
+                    "name": "Верхняя одежда",
+                    "id": 10
+                },
+                {
+                    "name": "Летняя одежда",
+                    "id": 1
+                }
+            ]
+        }
+    ],
+    "products": [
+        {
+            "name": "Синяя куртка",
+            "price": 11900,
+            "src": "/images/some.jpg"
+        },
+        {
+            "name": "Жёлтая куртка",
+            "price": 12900,
+            "src": "/images/some.jpg"
+        },
+        {
+            "name": "Оранжевая куртка",
+            "price": 10900,
+            "src": "/images/some.jpg"
+        }
+    ],
+    "page":{
+        "count": 5,
+        "nowPage": 1
+    }
+}
